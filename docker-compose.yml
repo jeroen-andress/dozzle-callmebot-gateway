@@ -1,7 +1,6 @@
 services:
   dozzle-callmebot-gateway:
     build: .
-    container_name: dozzle-callmebot
     restart: unless-stopped
 
     env_file:
